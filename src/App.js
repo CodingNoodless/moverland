@@ -6,14 +6,6 @@ import SearchIcon from './search.svg';
 
 const API_URL = 'https://www.omdbapi.com?apikey=5339d393';
 
-const movie1 = {
-    "Title": "The Man in the Iron Mask",
-    "Year": "1998",
-    "imdbID": "tt0120744",
-    "Type": "movie",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BZjM2YzcxMmQtOTc2Mi00YjdhLWFlZjUtNmFmMDQzYzU2YTk5L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
-}
-
 const App = () => {
 
     const [movies, setMovies] = useState([]);
